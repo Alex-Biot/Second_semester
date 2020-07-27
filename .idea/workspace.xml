@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b80f138c-7e0d-4daf-ab43-abbbb07ab8a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../20200714/src/MainWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/input/ConsoleGameReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/input/GemeReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/output/ConsoleGameMessenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/output/GameMessanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/state/AbstractGameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/state/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/state/LevelEasy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20200714/src/telran/wordGame/word/WordToGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game/src/packGame/PlayerInterfAction.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fGKyZlUdFl6xjsYv6hwBEiaTqB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="newTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b80f138c-7e0d-4daf-ab43-abbbb07ab8a1" name="Default Changelist" comment="" />
+      <created>1595839244611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595839244611</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="694" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1595846704162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595846704162" />
+    <state x="706" y="261" key="FileChooserDialogImpl" timestamp="1595848143857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595848143857" />
+    <state width="1383" height="211" key="GridCell.Tab.0.bottom" timestamp="1595855297285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595855297285" />
+    <state width="1383" height="211" key="GridCell.Tab.0.center" timestamp="1595855297285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595855297285" />
+    <state width="1383" height="211" key="GridCell.Tab.0.left" timestamp="1595855297285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595855297285" />
+    <state width="1383" height="211" key="GridCell.Tab.0.right" timestamp="1595855297285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595855297285" />
+  </component>
+</project>
