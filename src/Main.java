@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-       /* //Reverse string
+        //Reverse string
         String string = "Hallo Wold";
         StringBuilder stringBuilder = new StringBuilder(string);
         //string = stringBuilder.reverse().toString();
@@ -17,15 +17,15 @@ public class Main {
             if (Character.isLowerCase(chars[i])) chars[i]=Character.toUpperCase(chars[i]) ;
             else chars[i]=Character.toLowerCase(chars[i]) ;
         }
-        System.out.println(String.valueOf(chars));*/
+        System.out.println(String.valueOf(chars));
         int[] jArr = {1,2,2,3,4,1,7,7,8,456,23,456};
-
         List <Integer> integerList = new ArrayList<>();
         for (Integer jj: jArr
              ) {integerList.add(jj);}
-
+       // Repieted
        integerList=Repieted.getListRepieted( (ArrayList) integerList);
         System.out.println(integerList);
+        //Repieted1
         integerList=Repieted1.getListRepieted( (ArrayList) integerList);
         System.out.println(integerList);
 
