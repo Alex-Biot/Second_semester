@@ -1,34 +1,36 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         //Reverse string
         String string = "Hallo Wold";
-        StringBuilder stringBuilder = new StringBuilder(string);
-        //string = stringBuilder.reverse().toString();
-        System.out.println(stringBuilder.reverse() + "  " + string);
+        System.out.println(ReverseAndOthers.reverse(string));
 
         //Up and down
-        char[] chars = string.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            if (Character.isLowerCase(chars[i])) chars[i]=Character.toUpperCase(chars[i]) ;
-            else chars[i]=Character.toLowerCase(chars[i]) ;
-        }
-        System.out.println(String.valueOf(chars));
-        int[] jArr = {1,2,2,3,4,1,7,7,8,456,23,456};
+        System.out.println(ReverseAndOthers.upAndDown(string));
+
+        // Repeated.
+        int[] jArr = {1,2,2,2,2,2,3,4,1,7,7,8,456,23,456};
         List <Integer> integerList = new ArrayList<>();
         for (Integer jj: jArr
              ) {integerList.add(jj);}
-       // Repieted
-       integerList=Repieted.getListRepieted( (ArrayList) integerList);
-        System.out.println(integerList);
-        //Repieted1
-        integerList=Repieted1.getListRepieted( (ArrayList) integerList);
+        integerList=Repeated1.getListRepeated( (ArrayList) integerList);
         System.out.println(integerList);
 
+        //The Euclidean algorithm
+        EuclideanAlgorithm a = new EuclideanAlgorithm();
+        System.out.println(a.getD(36,12 ));
+
+        //Exponentiation 2. Not clear task.
+        int ex = 15;
+        System.out.println(ReverseAndOthers.exponent(ex));
+
+        // isMultiplied
+        List <Integer>list = Arrays.asList(1,3,8,9,11,20);
+        int n;
+        System.out.println(Multply.isMultiplied(list,64 ));
     }
+
+
 }
 
