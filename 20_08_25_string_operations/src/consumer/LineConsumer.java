@@ -18,10 +18,11 @@ public class LineConsumer extends Thread {
     }
 
     @Override
-    public void run() {
+    public synchronized void run() {
         try {
             while (true) {
                 String line = queue.take();
+                System.out.println(line);
                 //TODO: split the line on parts: the text to operate on and the name of the operation
                 String[] splitLine = line.split("#");
                 String text = splitLine[0];
@@ -29,7 +30,8 @@ public class LineConsumer extends Thread {
                 operation = new InsertStringOperation(operationName);
                 String res = operation.operate(text);
                 operationByName.put(res, operation);
-                System.out.println("take: "+res +"  "+operationName);
+                //System.out.println("                               take: "+res +"  "+operationName);
+
 
             }
         } catch (InterruptedException e) {

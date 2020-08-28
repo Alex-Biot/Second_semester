@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.BlockingQueue;
 
-public class LineSupplier extends Thread{
+public  class LineSupplier extends Thread{
     private final BlockingQueue<String> deque;
     private final List <String> list;
 
@@ -15,14 +15,17 @@ public class LineSupplier extends Thread{
     }
 
     @Override
-    public void run() {
+    public synchronized void run() {
 
-        Iterator <String>iterator = list.iterator();
-            try {while (iterator.hasNext())
-               {
-                    String res = iterator.next();
+        //Iterator <String>iterator = list.iterator();
+            try {while (!list.isEmpty())
+                //while (iterator.hasNext())
+               {String res=list.remove(0);
+                    //String res = iterator.next();
+
                     deque.put(res);
                     System.out.println("put: "+res);
+                    //Thread.sleep(100);
                 }
 
 
