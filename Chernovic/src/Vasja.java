@@ -14,7 +14,7 @@ class Vasja {
 
         while (!(moneyOut==moneyIn)) {
             ++i;
-            if (numberOfAttemptsX2>0)
+            if (numberOfAttemptsX2>0||moneyOut/2<moneyIn)
          moneyOut  = (moneyOut % 2 == 0) ? moneyOut / 2 : moneyOut - 1;
             else moneyOut=moneyOut-1;
             numberOfAttemptsX2--;

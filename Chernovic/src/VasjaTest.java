@@ -30,6 +30,20 @@ class VasjaTest {
         Vasja vasja = new Vasja(0, 1, 100);
         assertEquals(99, vasja.numberOfAttemptMin());
     }
-
+    @Test
+    public void testVasja_2_2_20_5() {
+        Vasja vasja = new Vasja(2, 2, 20);
+        assertEquals(6, vasja.numberOfAttemptMin());
+    }
+    @Test
+    public void testVasja_2_10_20_2() {
+        Vasja vasja = new Vasja(2, 10, 20);
+        assertEquals(1, vasja.numberOfAttemptMin());
+    }
+    @Test
+    public void testVasja_2_10_40_2() {
+        Vasja vasja = new Vasja(2, 10, 40);
+        assertEquals(2, vasja.numberOfAttemptMin());
+    }
 
 }
