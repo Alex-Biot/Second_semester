@@ -34,7 +34,7 @@ public class SqrtExec {
             ab[i] = a++;
 
 
-        return (int) Arrays.stream(ab).mapToLong(n->n).filter(number -> Math.sqrt(number) * 10 % 10 == 0 & Math.sqrt(number) * 10 % 10 == Math.sqrt(number)).count();
+        return (int) Arrays.stream(ab).mapToLong(number->(long)number).filter(number -> Math.sqrt(number) * 10 % 10 == 0 & Math.sqrt(number) * 10 % 10 == Math.sqrt(number)).count();
     }
 
 }
